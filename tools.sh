@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#PASSWORD DEĞİŞİMİ
+
 
 
 echo "AUTO INSTALL İŞLEMİ BAŞLATILIYOR"
@@ -45,16 +45,17 @@ sudo apt install sysstat ncdu htop nload pydf iotop -y
 sleep 4s
 sudo apt-get install gnupg2 -y
 sleep 4s
+apt-get install -y cmatrix
+sleep 4s
+apt-get install -y nload
+sleep 4s
+sudo apt-get install -y neofetch
+sleep 4s
+sudo apt-get install -y ncdu
+sleep 4s 
+sudo apt-get install -y tmux
+sleep 4s
+sudo apt-get install -y aria2
+sleep 4s
 
 
-echo "TEMEL PROGRAMLAR KURULDU"
-
-
-
-
-sleep 2s
-
-
-
-
-echo "KURULUM TAMAMLANDI LUTFEN
